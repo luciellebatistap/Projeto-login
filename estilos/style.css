@@ -18,12 +18,14 @@ body, html {
     width: 100vw;
 }
 main {
+    
     position: relative;
     height: 100vh;
     width: 100vw;
 }
 
 section#login {
+    
     position: absolute;
     top: 50%;
     left: 50%;
@@ -56,10 +58,13 @@ padding: 10px;
 div#formulario > h1 {
     text-align: center;
     margin-bottom: 10px;
+    
 }
 
 div#formulario > p {
+    
     font-size: 0.8em;
+    
 }
 
 form > div.campo {
@@ -70,10 +75,12 @@ form > div.campo {
     height: 40px;
     border-radius: 8px;
     margin: 5px 0px;
+
 }
 
 div.campo > label {
     display: none;
+    
 }
 
 div.campo > i {
@@ -85,12 +92,13 @@ div.campo > i {
 }
 
 div.campo > input {
+   
     background-color:#008000 ;
     border: 2px solid;
     font-size: 1em;
-    width: calc(100% - 44px);
+    wid bnnbioth: calc(100% - 30px);
     height: 100%;
-    transform: translateY(-12px);
+    transform: translate(41px, -44px);
     border: 0%;
     border-radius: 8px;
     padding: 4px;
@@ -127,6 +135,7 @@ form > a.botao {
     border-radius: 7px;
     text-decoration: none;
 
+
 }
 form > a.botao:hover {
     background-color: #6ae9e5;
@@ -135,4 +144,5 @@ form > a.botao:hover {
 
 form > a.botao > i {
     font-size: 08em;
+
 }
